@@ -1,0 +1,13 @@
+{
+  "name": "oauth-path",
+  "version": "1.0.0",
+  "description": "Research-backed OAuth app setup and approval guides, with live agent generation for any app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/run.js",
+    "build:static": "node build-static.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
